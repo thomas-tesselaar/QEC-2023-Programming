@@ -61,7 +61,7 @@ def summarize_book(text:str, l: int) -> str:
     """
     
     # Setting api keys to use the openai api
-    api_key = "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"
+    api_key = "API_KEY"
     openai.api_key = api_key
     
     
