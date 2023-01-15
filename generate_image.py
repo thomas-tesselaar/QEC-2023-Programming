@@ -12,7 +12,7 @@ import openai
 # Returns a url to view the image, could also be switched to put image directly
 # on your device
 def generate_image(prompt: str, title: str):
-    openai.api_key = "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"
+    openai.api_key = "API_KEY"
     
     # use the OpenAI API to generate the image
     response = openai.Image.create(
