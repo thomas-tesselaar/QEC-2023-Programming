@@ -119,7 +119,7 @@ def summarize_to_sentence(text:str) -> str:
     """
     
     # Setting api keys to use the openai api
-    api_key = "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"
+    api_key = "API KEY HERE"
     openai.api_key = api_key
     
     
